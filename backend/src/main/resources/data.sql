@@ -1,0 +1,14 @@
+-- ============================================================
+-- Food Ordering Database - Sample Data Reference
+-- ============================================================
+-- Tables are created automatically by Hibernate (ddl-auto=update)
+-- Sample data is inserted on startup by DataInitializer.java
+--
+-- Default Admin Account:
+--   Email:    admin@example.com
+--   Password: admin123  (BCrypt encoded at runtime)
+--   Role:     ROLE_ADMIN
+--
+-- Sample Restaurants: Pizza Palace, Burger Hub, Sushi Express
+-- Each restaurant includes 3 menu items with prices in INR (₹) and images
+-- ============================================================
