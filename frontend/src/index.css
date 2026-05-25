@@ -1,0 +1,92 @@
+:root {
+  --primary: #e63946;
+  --primary-dark: #c1121f;
+  --secondary: #1d3557;
+  --accent: #f4a261;
+  --bg: #f8f9fa;
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--primary) !important;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--secondary), #457b9d);
+  color: white;
+  padding: 4rem 0;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.card {
+  border: none;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.sidebar {
+  min-height: calc(100vh - 56px);
+  background: var(--secondary);
+  color: white;
+}
+
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.dashboard-card {
+  border-left: 4px solid var(--primary);
+}
+
+.status-badge {
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+footer {
+  background: var(--secondary);
+  color: white;
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+.main-content {
+  min-height: calc(100vh - 56px - 80px);
+}
